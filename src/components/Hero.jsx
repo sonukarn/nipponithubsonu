@@ -1,5 +1,5 @@
 import { Bookmark } from "lucide-react";
-
+import HeroImg from "../../src/assets/tabhero.jpg";
 export default function Hero() {
   return (
     <section className="bg-[#0a1b3d] text-white py-16">
@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="relative flex-1 flex justify-end md:pr-12">
           {/* Image */}
           <img
-            src="../../public/assets/tabhero.jpg"
+            src={HeroImg}
             alt="Nippon IT Hub"
             className="max-w-[500px] h-[500px] object-cover object-center rounded-xl shadow-lg ml-40"
           />

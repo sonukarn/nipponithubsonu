@@ -1,3 +1,6 @@
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import footerImg from "../../src/assets/bg_footer.png";
+import logo from "../../src/assets/nippon-it-logo-white.png";
 export default function Footer() {
   return (
     <footer className="relative bg-[#0a0f1c] text-white">
@@ -17,7 +20,7 @@ export default function Footer() {
         {/* Left: Logo & tagline */}
         <div>
           <img
-            src="../../public/assets/nippon-it-logo-white.png" // replace with your logo
+            src={logo} // replace with your logo
             alt="Nippon IT Hub"
             className="h-12 mb-4"
           />

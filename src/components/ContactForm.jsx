@@ -1,3 +1,4 @@
+import ContactImg from "../../src/assets/business-meeting-and-teamwork-by-business-people.jpg";
 export default function ContactForm() {
   return (
     <section className="relative bg-[#071225] text-white py-20">
@@ -54,7 +55,7 @@ export default function ContactForm() {
         {/* Right Side - Image */}
         <div className="relative">
           <img
-            src="../../public/assets/business-meeting-and-teamwork-by-business-people.jpg"
+            src={ContactImg}
             alt="Team Discussion"
             className="rounded-2xl shadow-lg"
           />

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { ChevronDown, CheckSquare } from "lucide-react";
-
+import img1 from "../../src/assets/img_service_1.jpg";
+import img2 from "../../src/assets/img_service_2.jpg";
+import img3 from "../../src/assets/img_service_3.jpg";
 const services = [
   {
     title: "DATA CENTER SUPPORT",
@@ -21,7 +23,7 @@ const services = [
       "Vendor Management",
       "ITAD and Remarketing",
     ],
-    image: "../../public/serviceAsset/img_service_1.jpg",
+    image: img1,
   },
   {
     title: "DESKTOP / END USER SUPPORT",
@@ -33,7 +35,7 @@ const services = [
       "Hardware Troubleshooting",
       "User Training",
     ],
-    image: "../../public/serviceAsset/img_service_2.jpg",
+    image: img2,
   },
   {
     title: "24/7 HARDWARE MAINTENANCE",
@@ -45,7 +47,7 @@ const services = [
       "24/7 Onsite Response",
       "Vendor Coordination",
     ],
-    image: "../../public/serviceAsset/img_service_3.jpg",
+    image: img3,
   },
 ];
 

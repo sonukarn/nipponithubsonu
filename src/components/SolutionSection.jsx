@@ -1,6 +1,6 @@
 import React from "react";
-import bgImage from "../../public/assets/blade-servers-background.jpg"; // change to your background
-import videoThumb from "../../public/assets/it-engineer-in-server-room.jpg"; // preview image
+import bgImage from "../../src/assets/blade-servers-background.jpg"; // change to your background
+import videoThumb from "../../src/assets/it-engineer-in-server-room.jpg"; // preview image
 
 const SolutionSection = () => {
   return (

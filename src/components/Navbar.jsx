@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // for hamburger menu
-import Logo from "../../public/assets/nippon-it-logo-white.png";
+import Logo from "../../src/assets/nippon-it-logo-white.png";
+import EnIcon from "../../src/assets/en_US.png";
+import JaIcon from "../../src/assets/ja.png";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,19 +38,11 @@ export default function Navbar() {
         {/* Language Flags */}
         <div className="hidden md:flex items-center space-x-4">
           <div className="flex items-center space-x-1 cursor-pointer hover:text-blue-400">
-            <img
-              src="../../public/assets/en_US.png"
-              alt="EN"
-              className="w-6 h-4"
-            />
+            <img src={EnIcon} alt="EN" className="w-6 h-4" />
             <span className="text-sm font-medium">EN</span>
           </div>
           <div className="flex items-center space-x-1 cursor-pointer hover:text-blue-400">
-            <img
-              src="../../public/assets/ja.png"
-              alt="JA"
-              className="w-6 h-4"
-            />
+            <img src={JaIcon} alt="JA" className="w-6 h-4" />
             <span className="text-sm font-medium">JA</span>
           </div>
         </div>
@@ -76,19 +70,11 @@ export default function Navbar() {
           </Link>
           <div className="flex flex-col space-y-2 pt-4">
             <div className="flex items-center space-x-2 cursor-pointer hover:text-blue-400">
-              <img
-                src="../../public/assets/en_US.png"
-                alt="EN"
-                className="w-6 h-4"
-              />
+              <img src={EnIcon} alt="EN" className="w-6 h-4" />
               <span className="text-sm font-medium">EN</span>
             </div>
             <div className="flex items-center space-x-2 cursor-pointer hover:text-blue-400">
-              <img
-                src="../../public/assets/ja.png"
-                alt="JA"
-                className="w-6 h-4"
-              />
+              <img src={JaIcon} alt="JA" className="w-6 h-4" />
               <span className="text-sm font-medium">JA</span>
             </div>
           </div>

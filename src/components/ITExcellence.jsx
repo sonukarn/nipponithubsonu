@@ -7,7 +7,7 @@ import {
   Layers,
   Package,
 } from "lucide-react"; // lucide icons
-import bgPattern from "../../public/assets/bg_memphis_1.png"; // decorative background (like screenshot)
+import bgPattern from "../../src/assets/bg_memphis_1.png"; // decorative background (like screenshot)
 
 const services = [
   {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
-import bgImage from "../../public/assets/bg_footer.png"; // adjust path
+import bgImage from "../../src/assets/bg_footer.png"; // adjust path
 
 const faqs = [
   {

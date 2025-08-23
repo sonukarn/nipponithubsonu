@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../public/assets/using-new-mobile-app-.jpg";
+import bgImage from "../../src/assets/using-new-mobile-app-.jpg";
 
 const ElevateExperience = () => {
   return (

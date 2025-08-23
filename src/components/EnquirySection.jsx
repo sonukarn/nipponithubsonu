@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../public/assets/bg_memphis_1.png";
+import bgImage from "../../src/assets/bg_memphis_1.png";
 
 const EnquirySection = () => {
   return (

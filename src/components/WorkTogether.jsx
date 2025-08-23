@@ -1,4 +1,4 @@
-import mapImg from "../../public/assets/map_bg.png";
+import mapImg from "../../src/assets/map_bg.png";
 export default function WorkTogether() {
   return (
     <section className="relative isolate overflow-hidden h-[90vh]">
