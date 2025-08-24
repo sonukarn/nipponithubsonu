@@ -1,49 +1,47 @@
 import { Bookmark } from "lucide-react";
 import HeroImg from "../../src/assets/tabhero.jpg";
+
 export default function Hero() {
   return (
     <section className="bg-[#0a1b3d] text-white py-16">
-      <div className="max-w-7xl mx-auto px-6 relative flex flex-col md:flex-row items-center">
-        {/* Image + Overlapping Card */}
-        <div className="relative flex-1 flex justify-end md:pr-12">
-          {/* Image */}
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center">
+        {/* Card first */}
+        <div
+          className="bg-white text-gray-900 rounded-xl shadow-lg p-6 sm:p-8
+                        w-full max-w-md mb-6 md:mb-0 
+                        md:relative md:z-10 md:-mr-16 md:mt-12"
+        >
+          <p className="text-sm text-gray-600 mb-2">Welcome To Nippon IT HUB</p>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+            Your Gateway to On-Demand Innovation in Japan
+          </h2>
+
+          {/* Divider with icon */}
+          <div className="flex items-center justify-center my-4">
+            <span className="border-t border-gray-300 w-1/3"></span>
+            <Bookmark className="text-blue-500 mx-3 w-5 h-5" />
+            <span className="border-t border-gray-300 w-1/3"></span>
+          </div>
+
+          <p className="text-gray-700 text-sm md:text-base">
+            Your dedicated source for on-demand IT excellence in Japan, offering
+            a comprehensive range of support services with experienced bilingual
+            experts, ensuring your IT needs are met with precision and
+            efficiency.
+          </p>
+        </div>
+
+        {/* Image next */}
+        <div className="relative flex-1 flex justify-center md:justify-start">
           <img
             src={HeroImg}
             alt="Nippon IT Hub"
-            className="max-w-[500px] h-[500px] object-cover object-center rounded-xl shadow-lg ml-40"
+            className="w-full max-w-sm sm:max-w-md md:max-w-[500px] md:h-[500px] object-cover object-center rounded-xl shadow-lg"
           />
-
-          {/* Overlapping Card */}
-          <div
-            className="bg-white text-gray-900 rounded-xl shadow-lg p-8
-                       md:absolute md:top-1/2 md:-translate-y-1/2
-                       md:-left-12 md:w-[360px]"
-          >
-            <p className="text-sm text-gray-600 mb-2">
-              Welcome To Nippon IT HUB
-            </p>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              Your Gateway to On-Demand Innovation in Japan
-            </h2>
-
-            {/* Divider with icon */}
-            <div className="flex items-center justify-center my-4">
-              <span className="border-t border-gray-300 w-1/3"></span>
-              <Bookmark className="text-blue-500 mx-3 w-5 h-5" />
-              <span className="border-t border-gray-300 w-1/3"></span>
-            </div>
-
-            <p className="text-gray-700 text-sm md:text-base">
-              Your dedicated source for on-demand IT excellence in Japan,
-              offering a comprehensive range of support services with
-              experienced bilingual experts, ensuring your IT needs are met with
-              precision and efficiency.
-            </p>
-          </div>
         </div>
 
         {/* Services List */}
-        <div className="flex-1 space-y-6 mt-12 md:mt-0 md:pl-16">
+        <div className="flex-1 space-y-6 mt-12 md:mt-0 md:pl-12 w-full">
           <h3 className="text-2xl font-bold">What We Do?</h3>
 
           <div className="space-y-4">

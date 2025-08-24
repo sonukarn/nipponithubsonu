@@ -62,7 +62,7 @@ export default function Navbar() {
           <Link to="/about" className="block hover:text-blue-400 text-lg">
             About Us
           </Link>
-          <Link to="/services" className="block hover:text-blue-400 text-lg">
+          <Link to="/service" className="block hover:text-blue-400 text-lg">
             Our Services
           </Link>
           <Link to="/contact" className="block hover:text-blue-400 text-lg">
